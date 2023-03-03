@@ -7,6 +7,7 @@ class BrokenTest {
   @Test
   void shouldNotPass() {
     assert 1 == 1;
+    System.out.println("test");
   }
 
 }
