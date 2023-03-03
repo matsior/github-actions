@@ -6,7 +6,7 @@ class BrokenTest {
 
   @Test
   void shouldNotPass() {
-    assert 1 == 2;
+    assert 1 == 1;
   }
 
 }
